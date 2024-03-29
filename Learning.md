@@ -1,5 +1,5 @@
 
-### *What i learn*
+### *What im learning*
 [[lunix]]
 [[vim]]
 [[docker]]
@@ -8,3 +8,6 @@
 
 ### *learned*
 [[git]]
+[[nextjs]]
+
+

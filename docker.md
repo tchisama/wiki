@@ -25,6 +25,7 @@ CMD node /app/app.js
 - then you can run the image by running `sodu docker run hello-docker`
 
 
+
 - if you want to pull a image use  `sodu docker pull hello-docker`
 
 - if you want to run a container `docker run ubuntu `
@@ -44,6 +45,39 @@ so i can create a image that have node 17 and create a container above it and pu
 actually each image in docker is based on another image for example the node image is based on a linux ubuntu image ex
 
 
+## *.dockerignore*
+```dockerignore
+node_modules
+```
+you can ignore any type of files to not push them to the container
 
+## *starting and stopping containers*
+
+```bash
+sodu docker run --name imagename  myapp
+
+sodu docker stop container_name
+```
+### ports
+you can open ports in the container
+
+you can list to see all the images by running `sodu docker images` or `sodu docker image ls`
+
+
+to show all the containers running `sodu docker ps`
+
+how to publish a port 
+
+`bash 
+sudo docker run --name myapp -p 4000:4000 -d image <--- this is the image name
+                       ^        ^    ^     ^ 
+                       |        |    |     |
+                       |        |    |     this to fre the terminal
+                       |        |    the port we want to link to
+                       |        container port
+                       container name
+`
+
+show all the container even the not running `sodu docker ps -a`
 
 
