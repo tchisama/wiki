@@ -4,7 +4,10 @@
 
 2024-03-29 15:01
 
-## learning sources
+## *learning sources*
+
+[[docker commands]]
+[[Dockerfile]]
 
 [Docker Tutorial for beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI)
 
@@ -24,9 +27,23 @@ CMD node /app/app.js
 
 - if you want to pull a image use  `sodu docker pull hello-docker`
 
--  if you want to run a container `docker run ubuntu `
+- if you want to run a container `docker run ubuntu `
 - turns out the video is learning linux in the last part of it
 
 
 
 [Docker crash course tutorial](https://www.youtube.com/watch?v=31ieHmcTUOk&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7)
+### images 
+images they are like blueprints for creating containers
+
+### containers
+containers are running images ,
+
+so i can create a image that have node 17 and create a container above it and put on the container my code and it will work separet from my pc
+
+actually each image in docker is based on another image for example the node image is based on a linux ubuntu image ex
+
+
+
+
+

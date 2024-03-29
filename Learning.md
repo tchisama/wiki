@@ -1,10 +1,10 @@
 
-### What i learn
+### *What i learn*
 [[lunix]]
 [[vim]]
 [[docker]]
 [[i3]]
 [[tmux]]
 
-### learned
+### *learned*
 [[git]]
