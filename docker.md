@@ -33,6 +33,11 @@ CMD node /app/app.js
 
 
 
+- how to push an image to docker hub
+- use this command `sodu docker push hello-docker`
+
+
+
 [Docker crash course tutorial](https://www.youtube.com/watch?v=31ieHmcTUOk&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7)
 ### images 
 images they are like blueprints for creating containers
