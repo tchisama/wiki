@@ -83,6 +83,22 @@ sudo docker run --name myapp -p 4000:4000 -d image <--- this is the image name
                        container name
 `
 
+
+| Command                                    | Description                               |
+| ------------------------------------------ | ----------------------------------------- |
+| docker build -t image_name .               | Build an image from a Dockerfile          |
+| docker run image_name                      | Run a container from a specific image     |
+| docker pull image_name                     | Pull an image from a registry             |
+| docker ps                                  | Show running containers                   |
+| docker ps -a                               | Show all containers, even if not running  |
+| docker stop container_name                 | Stop a running container                  |
+| docker start container_name                | Start a stopped container                 |
+| docker image ls                            | List all images                           |
+| docker container ls                        | List all containers                       |
+| docker build -t image_name .               | Build an image from a Dockerfile          |
+
+
+
 - show all the container even the not running `sodu docker ps -a`
 - now you can start from them any container you want `sodu docker start container_name`
 
