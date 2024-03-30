@@ -49,7 +49,7 @@ actually each image in docker is based on another image for example the node ima
 ```dockerignore
 node_modules
 ```
-you can ignore any type of files to not push them to the container
+- you can ignore any type of files to not push them to the container
 
 ## *starting and stopping containers*
 
@@ -59,14 +59,14 @@ sodu docker run --name imagename  myapp
 sodu docker stop container_name
 ```
 ### ports
-you can open ports in the container
+- you can open ports in the container
 
-you can list to see all the images by running `sodu docker images` or `sodu docker image ls`
+- you can list to see all the images by running `sodu docker images` or `sodu docker image ls`
 
 
-to show all the containers running `sodu docker ps`
+- to show all the containers running `sodu docker ps`
 
-how to publish a port 
+- how to publish a port 
 
 `bash 
 sudo docker run --name myapp -p 4000:4000 -d image <--- this is the image name
@@ -78,6 +78,25 @@ sudo docker run --name myapp -p 4000:4000 -d image <--- this is the image name
                        container name
 `
 
-show all the container even the not running `sodu docker ps -a`
+- show all the container even the not running `sodu docker ps -a`
+- now you can start from them any container you want `sodu docker start container_name`
 
 
+## *layer caching*
+
+- each line in the dockerfile is a layer that added to the image
+- you can build a container by using the `sudo docker build -t imagename .<-- location of the Dockerfile command `
+- waht if you changed your code, would you make a new image ? that will build the whole container again
+- 
+- [[learn more about docker caching]]
+
+## *Managing images and containers*
+
+- you can remove images `sodu docker image rm imagename`
+- you can remove containers `sodu docker container rm container_name`
+- you can list images `sodu docker image ls`
+- you can list containers `sodu docker container ls`
+
+warning
+- you can't remove images that a container is running on it
+- you can't remove containers that are running
