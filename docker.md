@@ -24,7 +24,7 @@ CMD node /app/app.js
 - then you can log all image by running `sodu docker image ls`
 - then you can run the image by running `sodu docker run hello-docker`
 
-
+- this line i'm just teaching zobair
 
 - if you want to pull a image use  `sodu docker pull hello-docker`
 
