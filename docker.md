@@ -9,7 +9,15 @@
 [[docker commands]]
 [[Dockerfile]]
 
+
+
+[[Docker with next js , steps // build]]
+[[Docker with next js , devlopment]]
+
+
+
 [Docker Tutorial for beginners](https://www.youtube.com/watch?v=pTFZFxd4hOI)
+
 
 - ok first you need to install docker from the docker website
 - then create a new project a simple app.js says helo world
@@ -99,6 +107,9 @@ sudo docker run --name myapp -p 4000:4000 -d image <--- this is the image name
 
 
 
+
+
+
 - show all the container even the not running `sodu docker ps -a`
 - now you can start from them any container you want `sodu docker start container_name`
 
@@ -121,3 +132,11 @@ sudo docker run --name myapp -p 4000:4000 -d image <--- this is the image name
 warning
 - you can't remove images that a container is running on it
 - you can't remove containers that are running
+
+
+
+
+
+
+
+
