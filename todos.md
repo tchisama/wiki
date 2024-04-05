@@ -23,7 +23,7 @@
 - [x]  carousel get course link to landing page /design-course
 - [x]  carousel remover view more button
 - [x]  courses margin bottom
-- [ ]  courses link if costumer own the course to learn page not landing page
+- [x]  courses link if costumer own the course to learn page not landing page
 - [x]  hide photoshop course
 - [ ]  add section of comming course for pre-inscreption
 
@@ -41,21 +41,23 @@
 
 - [x]  nav contact link target blank
 
+2024-04-02 05:06
+
 ##Courses
 
 - [x]  reload courses when logout
-- [ ]  remover owned courses from list of courses
-- [ ]  courses link if costumer own the course to learn page not landing page
+- [x]  remover owned courses from list of courses
+- [x]  courses link if costumer own the course to learn page not landing page
 
 ##Desgin Course - Landing Page
 
-- [ ]  css overflow err
-- [ ]  course content add duration 02:15
-- [ ]  form phone required only (email, name are not req)
+- [x]  css overflow err
+- [x]  course content add duration 02:15
+- [x]  coursesform phone required only (email, name are not req)
 
 ##Dashboard
 
-- [ ]  navbar users shortcut like mobile version
+- [x]  navbar users shortcut like mobile version
 
 ##Requests Page
 
