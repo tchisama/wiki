@@ -7,7 +7,7 @@
 [[commanting]]
 [[variables]]
 [[data types]]
-
+[[arrays]]
 
 
 
