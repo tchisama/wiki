@@ -1,10 +1,10 @@
 
 ### Rust Cheat Sheet
 
-#### 1. Basic Syntax
-
+[####](####) 1. Basic Syntax
+[[educative]]
 ```rust
-// Variables
+// Variable
 let x: i32 = 5;
 let mut y = 10; // Mutable variable
 
@@ -172,3 +172,39 @@ fn main() {
 }
 ```
 
+
+
+
+
+
+
+
+
+print and println are the same but println add a new line in the end 
+
+
+
+
+
+## Number integer table ranges
+
+| Type | Min Value                                | Max Value                               |
+|------|------------------------------------------|-----------------------------------------|
+| i8   | -128                                     | 127                                     |
+| u8   | 0                                        | 255                                     |
+| i16  | -32768                                   | 32767                                   |
+| u16  | 0                                        | 65535                                   |
+| i32  | -2147483648                              | 2147483647                              |
+| u32  | 0                                        | 4294967295                              |
+| i64  | -9223372036854775808                     | 9223372036854775807                     |
+| u64  | 0                                        | 18446744073709551615                    |
+| i128 | -170141183460469231731687303715884105728 | 170141183460469231731687303715884105727 |
+| u128 | 0                                        | 340282366920938463463374607431768211455 |
+
+
+
+
+fn main(){
+    assert_eq!(i8::MAX,127);
+    println!("yeah correct");
+}
