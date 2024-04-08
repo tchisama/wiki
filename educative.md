@@ -8,6 +8,9 @@
 [[variables]]
 [[data types]]
 [[arrays]]
+[[tuples]]
+[[constant variables]]
+[[operators]]
 
 
 
