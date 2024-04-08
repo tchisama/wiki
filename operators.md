@@ -25,9 +25,9 @@ binary operators
   3 - [Logical_operators](Logical_operators)
   2 - [Comparison_operators](Comparison_operators)
   4 - [Bitwise_operators](Bitwise_operators)
-  5 - Assignment operators
-  6 - compound assignment expressions
-  7 - typecast expression
+  5 - [Assignment_operators](Assignment_operators)
+  6 - [[type casting operator]] 
+  7 - [[Borrowing and dereferencing operators]]
   
 
 

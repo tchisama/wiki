@@ -41,7 +41,7 @@ example unix file permissions:
 ```
 
 
-# &
+# AND operator (&)
 
 ** 7 & 6 **
 
@@ -55,7 +55,6 @@ example unix file permissions:
 you can use it to check if the user have permissions
 
 ```rust
-let user = 7;
 let read = 4;
 let write = 2;
 let execute = 1;
@@ -69,7 +68,7 @@ if user_permissions & read == read {
 }
 ```
 
-# |
+# OR operator (|)
 
 ** 5 | 6 **
 
@@ -83,7 +82,6 @@ if user_permissions & read == read {
 you can use it to add permissions
 
 ```rust
-let user = 5;
 let read = 4;
 let write = 2;
 let execute = 1;
@@ -97,10 +95,51 @@ user_permissions = user_permissions | execute; // add execute permission
 println!("user permissions: {}", user_permissions);
 ```
 
+# XOR operator (^)
+
+** 5 ^ 6 **
+
+| 5 | 6 | ^ |
+|---|---|---|
+| 1 | 1 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+|---|---|---|
+
+you can use it to remove permissions
+
+```rust
+let read = 4;
+let write = 2;
+let execute = 1;
+
+let mut user_permissions = 7;
+user_permissions = user_permissions ^ read; // remove read permission
+
+println!("user permissions: {}", user_permissions);
+```
 
 
+# NOT operator (!)
+
+** !5 **
+
+| 5 | ! |
+|---|---|
+| 1 | 0 |
+| 0 | 1 |
+| 1 | 0 |
+|---|---|
 
 
+# Shift operators (<<, >>)
 
+** 5 << 2 **
 
+5 << 2 = 20
 
+| 5 | << | 2 |
+|---|----|---|
+| 1 | 0  | 1 |
+| 1 | 0  | 1 |
+|---|----|---|
