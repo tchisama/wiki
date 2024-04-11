@@ -14,7 +14,7 @@
 [[Conditional Expressionk]]
 [[loops]]
 [[statements]]
-
+[[functions]]
 
 
 
